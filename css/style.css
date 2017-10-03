@@ -6688,3 +6688,17 @@ jquery toTop
 .int-btn {
 	width:300px;
 }
+
+/* Header for DS */
+.header-nav {
+	margin: 0 auto;
+	position: absolute;
+	display: block;
+	text-align: center;
+}
+
+.header-nav img {
+	width: auto;
+	margin: 40px
+}
+
