@@ -5263,15 +5263,15 @@ ul.circled span {
 	left:10px;
 }
 .testimonials-content h3 {
-	font-size:18px;
-	line-height:1.6em;
+	font-size:32px;
+	line-height:1.6;
 	font-weight:600;
 	color:#fff;
 	margin-bottom:10px
 }
 .testimonials-content p {
-	font-size:14px;
-	line-height:1.71em;
+	font-size:20px;
+	line-height:1.6em;
 	font-weight:400;
 	color:#fff
 }
@@ -6709,7 +6709,16 @@ jquery toTop
 	padding-top: 200px;
 }
 
+.video-bg.landing h2 {
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	font-weight: 700;
+}
+
 footer img {
-	max-width: 220px;
+	max-width: 200px;
+	height: auto;
 }
 
