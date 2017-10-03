@@ -604,7 +604,7 @@ nav#main-nav {
 	text-align:center;
 }
 
-.video-bg.landing select, .video-bg.landing textarea, .video-bg.landing input[type="text"], .video-bg.landing input[type="password"], .video-bg.landing .btn-submit {
+.video-bg.landing select, .video-bg.landing textarea, .video-bg.landing input[type="text"], .video-bg.landing input[type="email"], .video-bg.landing input[type="password"], .video-bg.landing .btn-submit {
     width:100%;
 
 }

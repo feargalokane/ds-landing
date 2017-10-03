@@ -6700,6 +6700,12 @@ jquery toTop
 
 .header-nav img {
 	width: auto;
-	margin: 40px
+	padding: 40px
+	max-width: 100%;
+	height: auto;
+}
+
+.video-bg.landing {
+	padding-top: 200px;
 }
 
