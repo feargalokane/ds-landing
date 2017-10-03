@@ -780,6 +780,7 @@ img {
 }
 .col-xs-offset-2 {
 	margin-left: 0px;
+	padding: 0 30px;
 }
 .med {
     margin-left:20px;
