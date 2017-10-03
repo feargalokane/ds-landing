@@ -6695,6 +6695,7 @@ jquery toTop
 	position: absolute;
 	display: block;
 	text-align: center;
+	width: 100%;
 }
 
 .header-nav img {
