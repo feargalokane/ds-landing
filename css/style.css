@@ -367,7 +367,8 @@ ul.circled {
 	list-style: none;
 }
 ul.circled li {
-	padding: 4px 0px;
+	padding: 4px 0px 4px 16px;
+	position: relative;
 }
 ul.circled li:before {
 	content: '\e800';
@@ -379,6 +380,9 @@ ul.circled li:before {
 	font-family: 'fontello-circle';
 	color: #2c2e32;
 	font-size: 8px;
+	position: absolute;
+	top: 2px;
+	left: 0;
 }
 ul.arrow{
 	padding: 0;
@@ -4827,6 +4831,7 @@ ul.circled span {
 	text-align: center;
 	padding-bottom: 10px;
 	display: block;
+	display: flex;
 }
 .pricing ul {
 	padding: 0;
@@ -4842,6 +4847,7 @@ ul.circled span {
 	-moz-transition:all 0.3s ease;
 	-o-transition:all 0.3s ease;
 	transition:all 0.3s ease;
+	height: 100%;
 }
 .pricing .plan:hover, .pricing .plan.active {
 	background: #fff;
