@@ -4117,7 +4117,8 @@ ul.circled span {
 	color:#fff;
 }
 .btn.large {
-	width:240px;
+	width: auto;
+	font-size: 18px;
 }
 
 /* background buttons */
@@ -4832,6 +4833,7 @@ ul.circled span {
 	padding-bottom: 10px;
 	display: block;
 	display: flex;
+	flex-wrap: wrap;
 }
 .pricing ul {
 	padding: 0;
